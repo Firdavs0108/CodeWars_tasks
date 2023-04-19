@@ -33,17 +33,24 @@
 
 
 
+
+
 /// WORKING WITH SWITCH CASE
 
 
-var fruit = 'Apple'
+// var fruit = 'Peach'
 
-switch ('Apple') {
-    case 'Apple':
-        console.log('10.000')
-    case 'Peach' :
-        console.log('12.000');
-    case 'PineApple':
-        console.log('15.000');
+// switch (fruit) {
+//     case 'Apple':
+//         console.log('10.000')
+//         break;
+//     case 'Peach' :
+//         console.log('12.000');
+//         break;
+//     case 'PineApple':
+//         console.log('15.000');
+//         break;
+//     default:
+//         console.log('Sorry we dont have this product');
 
-}
+// }
