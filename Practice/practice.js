@@ -88,12 +88,3 @@ for (let index = 0; index <= 10; index++) {
 
 
 
-// for (let i = 0; num < 0; i++) {
-//     console.log(i);
-    // if( i % 2 == 0) {
-    //     console.log( i+'  juft son')
-    // } else {
-    //     console.log( i+'  toq son')
-    // }
-    
-// }
