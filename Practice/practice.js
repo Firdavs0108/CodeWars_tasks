@@ -50,3 +50,50 @@
 //         console.log('Sorry we dont have this product');
 
 // }
+
+
+
+
+
+//////   
+
+// let num = 15
+
+// if(num % 3 == 0 &&  num % 5 == 1){
+//     console.log('3ga bolinadi');
+// }else if(num % 5 == 0 &&  num % 3 == 1){
+//     console.log('5ga bolinadi');
+// }else if(num % 3 == 0 &&  num % 5 == 0){
+//     console.log('5ga ham 3ga ham bolinadi');
+// }
+
+
+
+
+
+
+///////
+
+
+
+for (let index = 0; index <= 10; index++) {
+    // const element = num[index] 
+    if(index % 2 == 0){
+        console.log(index+' juft son');
+    }else{
+        console.log(index+' toq son');
+    }
+    // console.log(index);
+}
+
+
+
+// for (let i = 0; num < 0; i++) {
+//     console.log(i);
+    // if( i % 2 == 0) {
+    //     console.log( i+'  juft son')
+    // } else {
+    //     console.log( i+'  toq son')
+    // }
+    
+// }
