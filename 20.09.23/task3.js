@@ -13,7 +13,7 @@ function countSheeps(arrayOfSheep) {
          num+=1
       }
     }
-    return num;
+   console.log(num);
         
     }
     

@@ -76,15 +76,17 @@
 
 
 
-for (let index = 0; index <= 10; index++) {
-    // const element = num[index] 
+for (let index = 0; index < 10; index++) {
+    // console.log(index);
     if(index % 2 == 0){
         console.log(index+' juft son');
     }else{
         console.log(index+' toq son');
     }
-    // console.log(index);
+
 }
+
+// console.log(key[index]);
 
 
 
