@@ -5,7 +5,6 @@
 
 
 
-
 function countSheeps(arrayOfSheep) {
   
     let num = 0
