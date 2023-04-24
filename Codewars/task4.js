@@ -3,14 +3,24 @@
 
 ///Add string numbers
 
-function sumStr(a,b) {
-    let num = Number(a)
-    let num2 = Number(b)
+// function sumStr(a,b) {
+//     let num = Number(a)
+//     let num2 = Number(b)
 
-    let key = num + num2
+//     let key = num + num2
     
-   console.log(key);
+//    console.log(key);
 
+// }
+
+// sumStr('20','30')
+
+
+
+
+
+functiongetNumber(a=0 ,  b=1) {
+    return b
 }
 
-sumStr('20','30')
+console.log(getNumber(3)*3);
