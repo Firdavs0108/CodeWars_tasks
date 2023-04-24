@@ -85,15 +85,15 @@
 
 /////14
 
-let array = [11, 10, 1];
-let result = true;
+// let array = [11, 10, 1];
+// let result = true;
 
-for (let i = 0; i < array.length; i++) {
-  if (array[i] > 100) {
-     result = false;
-  }
-}
-console.log(result)
+// for (let i = 0; i < array.length; i++) {
+//   if (array[i] > 100) {
+//      result = false;
+//   }
+// }
+// console.log(result)
 
 
 // let array = [11, 10, 22];
@@ -128,3 +128,73 @@ console.log(result)
 
 
 
+////23
+
+ 
+// var students = [
+//   {
+//       name: 'David',
+//       age: 12
+//   },
+//   {
+//       name: 'Daniel',
+//       age: 13
+//   },
+//   {
+//       name: 'Alex',
+//       age: 10
+//   }
+// ];
+
+// let filtered = []
+
+// let name = (index) => {
+// for (let i of students ) {
+//   if (i.name.includes (index))
+//   {
+//       filtered.push(i);
+//   }
+// } 
+
+// }
+
+// name("l")
+// console.log(filtered);
+
+
+
+
+
+
+
+
+var students = [
+  {
+      name: 'David',
+      age: 12
+  },
+  {
+      name: 'Daniel',
+      age: 13
+  },
+  {
+      name: 'Alex',
+      age: 10
+  }
+];
+
+let count = []
+
+let name = (input) => {
+
+for(let i of students) {
+  if(i.name.includes (input))
+
+{
+  count.push(i)
+}
+}
+}
+
+name('e')
+console.log(count);
