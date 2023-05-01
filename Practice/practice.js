@@ -77,17 +77,62 @@
 
 
 
-for (let index = 0; index < 10; index++) {
-    // console.log(index);
-    if(index % 2 == 0){
-        console.log(index+' juft son');
-    }else{
-        console.log(index+' toq son');
+// for (let index = 0; index < 10; index++) {
+//     // console.log(index);
+//     if(index % 2 == 0){
+//         console.log(index+' juft son');
+//     }else{
+//         console.log(index+' toq son');
+//     }
+
+// }
+
+// // console.log(key[index]);
+
+
+
+// function CountNum(num) {
+
+//     let sum = 0
+
+//     for (i = 0; i <= num; i++)
+//     {
+//     sum = sum + i
+//     console.log(sum);  
+// }
+    
+// }
+// CountNum(5)
+
+
+
+function ReverseString(str) {
+    
+    let str2 = ''
+    
+    for (let index = str.length-1; index >= 0; index--) {
+        str2 += str[index]   
     }
+    console.log(str2);
 
 }
+ReverseString('Hello')
 
-// console.log(key[index]);
+
+
+
+
+// let summation = (n) => { 
+// let sum = 0
+
+// for(i = 0; i<= n; i++){
+//     sum = sum+i
+//     console.log(sum);
+// }
+
+// }
+// summation(6)
+
 
 
 
